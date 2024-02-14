@@ -1,5 +1,5 @@
-import Logo from '../assets/logo.png';
-import SearchImage from '../assets/icons/search.svg';
+import Logo from '../../assets/logo.png';
+import SearchImage from '../../assets/icons/search.svg';
 const Navbar = () => {
   return (
     <nav className="border-b border-black py-6 md:py-8">
