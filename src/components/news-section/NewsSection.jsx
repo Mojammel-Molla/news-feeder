@@ -2,9 +2,9 @@ const NewsSection = ({ allNews }) => {
   return (
     <div>
       <h1>This is news page</h1>
-      {/* {allNews?.map(news => (
+      {allNews?.map(news => (
         <div
-          key={news.source.name}
+          key={news.source.id}
           className="col-span-12 grid grid-cols-12 gap-4"
         >
           <div className="col-span-12 lg:col-span-4">
@@ -34,7 +34,7 @@ const NewsSection = ({ allNews }) => {
             </p>
           </div>
         </div>
-      ))} */}
+      ))}
     </div>
   );
 };
